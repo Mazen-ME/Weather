@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather </title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="section ">
+        <div class="layer overflow-auto ">
+            <div class="container  py-5 my-5 vh-100 ">
+                <div class="row  d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-md-10  d-flex flex-column justify-content-center align-items-center">
+                        <div class="input w-75">
+                            <input id="search"  class="mb-5 w-100 form mx-auto" type="text" placeholder="Search">
+                        </div>
+                        <div class="cards w-100">
+                            <div class="card ">
+                                <div class="date d-flex justify-content-between align-items-center ">
+                                    <div class="date-day">
+                                        <h5 id="day1" class=""></h5>
+                                    </div>
+                                    <div class="date-month">
+                                        <h5 id="month"></h5>
+                                    </div>
+                                </div>
+                                <div class="card-data px-3 py-2">
+                                    <div  class="area mt-3 text-light">
+                                        <h3 id="area"></h3>
+                                        <div class="degree-data me-5 d-flex justify-content-between align-items-center">
+                                            <h1 id="degree"></h1>
+                                            <img class="" src="" id="degree-icon" alt="">
+                                        </div>
+                                        <div id="status1" class="status mt-5">
+                                            <h4 class="mt-5"></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="date d-flex justify-content-between align-items-center">
+                                    <div class="date-day mx-auto">
+                                        <h5 id="day2" class=""></h5>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-data px-3 py-2">
+                                    <div id="area" class="area mt-3 text-light">
+                                        <div class="degree-data me-5 flex-column d-flex justify-content-between align-items-center">
+                                            <h1 class="mx-auto" id="degree2"></h1>
+                                            <h2 class="mx-auto" id="degree3">16<span class="os">o</span>C </h2>
+                                            <img alt="" class="mx-auto" id="degree-icon2" class="ms-4"></img>
+                                        </div>
+                                        <div id="status2" class="status my-3">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="date d-flex justify-content-between align-items-center">
+                                    <div class="date-day mx-auto">
+                                        <h5 id="day3" class=""></h5>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-data px-3 py-2">
+                                    <div id="area" class="area mt-3 text-light">
+                                        <div class="degree-data me-5 flex-column d-flex justify-content-between align-items-center">
+                                            <h1 class="mx-auto" id="degree4"></h1>
+                                            <h2 class="mx-auto" id="degree5"></h2>
+                                            <img alt="" class="mx-auto" id="degree-icon3" class="ms-4"></img>
+                                        </div>
+                                        <div id="status3" class="status my-3">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/Jquery.c.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

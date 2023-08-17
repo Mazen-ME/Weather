@@ -1,0 +1,65 @@
+.section {
+    background-image: url(https://images.alphacoders.com/213/213853.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.345);
+}
+
+.form {
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: solid 2px #71979D;
+    border-radius: 15px;
+     color: aliceblue;
+}
+.form::placeholder {
+    color: aliceblue;
+}
+.date {
+    
+    border-radius: 15px 15px 0px 0px;
+    height: 60px;
+    background-color:#71979D;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+.cards {
+     display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.card {
+    
+    box-shadow: 0px 2px 20px 0px #7278d17e;
+    background-color: rgba(57, 57, 77, 0.644);
+    border: none;
+    border-radius: 15px;
+}
+
+.o{
+    position: relative;
+    top: -33px;
+    font-size: 20px;
+}
+.os {
+    position: relative;
+    top: -20px;
+    font-size: 16px;
+}
+
+h1 {
+    margin:20px 10px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.status {
+    color:#d0aa00;
+}
